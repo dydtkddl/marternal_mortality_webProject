@@ -1,0 +1,18 @@
+.matrix-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  height: 50px;
+}
+
+.matrix-cell.header {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.rotate-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-align: center;
+}
